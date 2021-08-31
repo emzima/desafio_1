@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.encabezado{
+    background-color: #C8E7EA;
+    padding: 20px 30px;
+}
+
+.encabezado h1{
+    color: #0693A1;
+    font-size: 32px;
+}
+
+h2{
+    width: 87%;
+    color: #73615F;
+    font-size: 32px;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    text-align: right;
+}
+
+.padre{
+    width: 75%;
+    margin: auto;
+}
+
+.padre .hijo {
+    background-color: #FDF1E8;
+    margin: 20px 20px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 4px #46423E;
+}
+
+#porque{
+    font-style: italic;
+    font: bold
+}
+
+.hijo ul{
+    list-style-position: inside;
+    list-style-type:disc;
+}
+
+.agradecimiento{
+    background-color: #FDF1E8;
+    font-size: 10px;
+    width: 15%;
+    float: right;
+    margin: 7px 7px;
+    border-radius: 7px;
+    padding: 10px 10px;
+    align-content: center;
+}
+
+.piedepag{
+    background-color: #C8E7EA;
+    color: #0693A1;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 15px;
+}
