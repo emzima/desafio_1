@@ -36,6 +36,7 @@ h2{
 }
 
 .padre .hijo {
+    z-index: 1;
     background-color: #FDF1E8;
     margin: 20px 20px;
     padding: 20px 40px;
@@ -43,9 +44,31 @@ h2{
     box-shadow: 3px 3px 4px #46423E;
 }
 
-#porque{
+.imagen {
+    margin: 0;
+    position: absolute;
+    z-index: -1;
+    left: 0 !important;
+}
+
+#quiensoy {
+    top: 90px;
+}
+
+#dedonde {
+    top: 270px;
+}
+
+#hobbies {
+    top: 440px;
+}
+
+#porque {
     font-style: italic;
-    font: bold
+    font: bold;
+}
+#porque2 {
+    top: 700px;
 }
 
 .hijo ul{
