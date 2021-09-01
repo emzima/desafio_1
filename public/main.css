@@ -36,7 +36,7 @@ h2{
 }
 
 .padre .hijo {
-    z-index: 1;
+    z-index: 0;
     background-color: #FDF1E8;
     margin: 20px 20px;
     padding: 20px 40px;
@@ -56,11 +56,11 @@ h2{
 }
 
 #dedonde {
-    top: 270px;
+    top: 310px;
 }
 
 #hobbies {
-    top: 440px;
+    top: 475px;
 }
 
 #porque {
@@ -68,12 +68,13 @@ h2{
     font: bold;
 }
 #porque2 {
-    top: 700px;
+    top: 760px;
 }
 
 .hijo ul{
+    margin: 0px 20px;
     list-style-position: inside;
-    list-style-type:disc;
+    list-style-type:none;
 }
 
 .agradecimiento{
