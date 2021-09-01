@@ -37,7 +37,7 @@ h2{
 
 .padre .hijo {
     z-index: 0;
-    background-color: #FDF1E8;
+    background: rgba(253, 241, 232, 0.65);
     margin: 20px 20px;
     padding: 20px 40px;
     border-radius: 15px;
@@ -49,6 +49,7 @@ h2{
     position: absolute;
     z-index: -1;
     left: 0 !important;
+    max-width: 100%;
 }
 
 #quiensoy {
@@ -65,7 +66,7 @@ h2{
 
 #porque {
     font-style: italic;
-    font: bold;
+    font-weight: bold;
 }
 #porque2 {
     top: 760px;
