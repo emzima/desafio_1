@@ -25,7 +25,7 @@ h2{
     width: 87%;
     color: #73615F;
     font-size: 32px;
-    margin: 0.5em 0.9%;
+    margin: 0.5rem 0.9%;
     padding: 0.5% 0.5%;
     text-align: right;
 }
@@ -38,7 +38,7 @@ h2{
 .padre .hijo {
     z-index: 0;
     background: rgba(253, 241, 232, 0.65);
-    margin: 1.5em 2%;
+    margin: 1.5rem 2%;
     padding: 2% 4%;
     border-radius: 1.5%;
     box-shadow: 3px 3px 4px #46423E;
@@ -53,15 +53,15 @@ h2{
 }
 
 #quiensoy {
-    top: 6.5em;
+    top: 6.5rem;
 }
 
 #dedonde {
-    top: 20.7em;
+    top: 20.7rem;
 }
 
 #hobbies {
-    top: 31.5em;
+    top: 31.5rem;
 }
 
 #porque {
@@ -69,7 +69,7 @@ h2{
     font-weight: bold;
 }
 #porque2 {
-    top: 49em;
+    top: 49rem;
 }
 
 .hijo ul{
